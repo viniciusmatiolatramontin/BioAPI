@@ -1,4 +1,4 @@
-package com.bioapi.repository;
+package com.bioapi.main.repository;
 
 public class FungiRepository {
     
