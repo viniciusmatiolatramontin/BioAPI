@@ -1,5 +1,9 @@
 package com.bioapi.main.repository;
 
-public class PlantRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.bioapi.main.model.Plant;
+
+public interface PlantRepository extends JpaRepository<Plant, Long> {
     
 }
