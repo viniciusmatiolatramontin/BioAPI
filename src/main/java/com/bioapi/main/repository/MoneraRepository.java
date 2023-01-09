@@ -1,5 +1,9 @@
 package com.bioapi.main.repository;
 
-public class MoneraRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.bioapi.main.model.Monera;
+
+public interface MoneraRepository extends JpaRepository<Monera, Long>{
     
 }

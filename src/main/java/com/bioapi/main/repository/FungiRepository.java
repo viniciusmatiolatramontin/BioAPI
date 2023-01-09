@@ -1,5 +1,9 @@
 package com.bioapi.main.repository;
 
-public class FungiRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.bioapi.main.model.Fungi;
+
+public interface FungiRepository extends JpaRepository<Fungi, Long> {
     
 }
